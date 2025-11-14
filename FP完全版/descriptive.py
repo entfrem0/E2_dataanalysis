@@ -4,8 +4,6 @@ from scipy import stats
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
-
-
 def plot_all(df):
     colors = {'laminar': 'deepskyblue', 'turbulent': 'orange'}
     flows = ['turbulent', 'laminar']
