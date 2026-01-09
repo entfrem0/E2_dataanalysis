@@ -21,11 +21,12 @@ def plot_all(df):
                  label=f'{flow} fit (r={r_value:.2f})')
     plt.xlabel('Pressure (p)')
     plt.ylabel('y-acceleration (dvdt)')
-    plt.title('① Pressure vs y-acceleration (dvdt)')
+    plt.title('1 Pressure vs y-acceleration (dvdt)')
     plt.legend()
     plt.grid(True, alpha=0.3)
     plt.show()
 
+    """
     # 2. Velocity vs Pressure
     plt.figure(figsize=(6, 4))
     for flow in flows:
@@ -75,3 +76,4 @@ def plot_all(df):
     plt.axis('equal')
     plt.grid(True, alpha=0.3)
     plt.show()
+    """
