@@ -7,7 +7,7 @@
 from __future__ import annotations
 
 import pandas as pd
-
+import matplotlib.pyplot as plt
 from machine import build_pipeline, run_cv_regression, boxplot_scores, run_baseline_models_cv
 
 
